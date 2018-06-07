@@ -8,6 +8,7 @@ If you got a blank (black/white) spyder window after installation then do:
 
   source activate (yourenv)
   conda install -c anaconda pyopengl  (https://anaconda.org/anaconda/pyopengl)
+  
 An NVIDIA GPU with a compute capability of 3.0 or higher.
 I'll be using a GTX 1050 Ti hooked up externally to a thinkpad T420s through the express card port
 Python installed.
