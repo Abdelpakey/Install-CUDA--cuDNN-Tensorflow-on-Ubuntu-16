@@ -12,7 +12,7 @@ Overview
     Step 4: Install Tensorflow GPU with pip
     Step 5: Test it!
     
-Step 1: Update your GPU driver
+# Step 1: Update your GPU driver
 Open a terminal and run the following 3 commands
 
 sudo add-apt-repository ppa:graphics-drivers/ppa
@@ -23,7 +23,8 @@ Reboot your computer. To verify the installation, open a terminal and run the fo
 nvidia-smi
 The output should show the GPU name and the driver
 
-Step 2: Install the CUDA Toolkit (9.0)
+#Step 2: Install the CUDA Toolkit (9.0)
+
 go to https://developer.nvidia.com/cuda-90-download-archive and download the toolkit for linux, x86_64, ubuntu, 17.04, deb l
 once the download is complete, open a terminal in the directory the base installer is and run the follow commands
 sudo dpkg -i cuda-repo-ubuntu1704-9-0-local_9.0.176-1_amd64.deb
@@ -37,7 +38,9 @@ sudo nano ~/.bashrc
 go to the last line and add the following lines (this will set your PATH variable)
 export PATH=/usr/local/cuda-9.0/bin${PATH:+:$PATH}}
 export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
-Step 3: Install CUDNN 7.0.5
+
+#Step 3: Install CUDNN 7.0.5
+
 go to https://developer.nvidia.com/cudnn
 Select CUDNN 7.0.5 for CUDA 9.0
 download the cuDNN v7.0.5 Library for Linux (tar file)
