@@ -10,9 +10,8 @@ If you got a blank (black/white) spyder window after installation then do:
   conda install -c anaconda pyopengl  (https://anaconda.org/anaconda/pyopengl)
   
 An NVIDIA GPU with a compute capability of 3.0 or higher.
-I'll be using a GTX 1050 Ti hooked up externally to a thinkpad T420s through the express card port
-Python installed.
-Ubuntu comes with python already installed but I will be using anaconda
+I'll be using a TITAN XP GPU
+Ubuntu comes with python 2.7 already installed but I will be using anaconda
 Overview
 
     Step 1: Update your GPU driver (should be higher than version 390)
