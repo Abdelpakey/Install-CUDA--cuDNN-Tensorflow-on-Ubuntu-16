@@ -50,8 +50,8 @@ once the download is complete, open a terminal in the directory the base install
 
 go to the last line and add the following lines (this will set your PATH variable)
 
-  export PATH=/usr/local/cuda-9.0/bin${PATH:+:$PATH}}
-  export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+    export PATH=/usr/local/cuda-9.0/bin${PATH:+:$PATH}}
+    export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 
 # Step 3: Install CUDNN 7.0.5
 
