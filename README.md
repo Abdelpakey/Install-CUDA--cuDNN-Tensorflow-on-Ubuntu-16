@@ -87,3 +87,18 @@ go to the last line and add the following lines (this will set your PATH variabl
     >>>     sesh.run(hello)
     the output should be
     >>> 'hello tensorflow'
+    
+    
+   # install GCC4.9 and G++4.9 to run VOT Toolkit
+   
+      sudo add-apt-repository ppa:ubuntu-toolchain-r/test
+      sudo apt-get update
+      sudo apt-get install gcc-4.9 g++-4.9
+      sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.9 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.9
+      
+      sudo apt-get install gcc-4.8 g++-4.8
+      sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-4.8 60 --slave /usr/bin/g++ g++ /usr/bin/g++-4.8
+      
+  Then you can check which one that is set, and change back and forth using:
+
+      sudo update-alternatives --config gcc    
