@@ -23,12 +23,12 @@ Overview
 # Step 1: Update your GPU driver
 Open a terminal and run the following 3 commands
 
-sudo add-apt-repository ppa:graphics-drivers/ppa
-sudo apt update
-sudo apt install nvidia-390
+  sudo add-apt-repository ppa:graphics-drivers/ppa
+  sudo apt update
+  sudo apt install nvidia-390
 Reboot your computer. To verify the installation, open a terminal and run the following command
 
-nvidia-smi
+  nvidia-smi
 The output should show the GPU name and the driver
 
 # Step 2: Install the CUDA Toolkit (9.0)
