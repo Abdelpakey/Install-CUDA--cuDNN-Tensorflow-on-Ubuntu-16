@@ -76,7 +76,7 @@ go to the last line and add the following lines (this will set your PATH variabl
     source activate tf
   run the following command to install tensorflow
 
-    pip install tensorflow-gpu==15
+    pip install tensorflow-gpu
   Step 5: Test it!
   start a python interpreter in the terminal by typing
     python
