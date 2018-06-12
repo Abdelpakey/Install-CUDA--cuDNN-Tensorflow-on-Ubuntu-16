@@ -30,6 +30,10 @@ Reboot your compute to verify the installation, open a terminal and run the foll
 
     nvidia-smi
 The output should show the GPU name and the driver
+if loginloop issue:
+
+#solution# :downgrade the kernel, or select the lower version kernel, or delete the latest version kernel, or set "Unattended-upgrade" as 0, or reinstall the Nvidia driver. 
+https://devtalk.nvidia.com/default/topic/1000340/cuda-setup-and-installation/-quot-nvidia-smi-has-failed-because-it-couldn-t-communicate-with-the-nvidia-driver-quot-ubuntu-16-04/2
 
 # Step 2: Install the CUDA Toolkit (9.0)
 
