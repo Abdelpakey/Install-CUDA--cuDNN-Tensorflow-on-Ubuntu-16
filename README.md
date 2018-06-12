@@ -30,6 +30,7 @@ Reboot your compute to verify the installation, open a terminal and run the foll
 
     nvidia-smi
 The output should show the GPU name and the driver
+
 if loginloop issue:
 
 #solution# :downgrade the kernel, or select the lower version kernel, or delete the latest version kernel, or set "Unattended-upgrade" as 0, or reinstall the Nvidia driver. 
