@@ -107,3 +107,6 @@ go to the last line and add the following lines (this will set your PATH variabl
   Then you can check which one that is set, and change back and forth using:
 
       sudo update-alternatives --config gcc    
+      
+  # Install Matconvent on Matlab-2018a  
+      https://www.youtube.com/watch?v=EYdKnGV0BSY
