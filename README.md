@@ -14,6 +14,9 @@ I'll be using a TITAN XP GPU
 Ubuntu comes with python 2.7 already installed but I will be using anaconda
 Overview
 
+open up  additonal driver and use Nvidia 384.130 (propreitary)  and then  reboot
+
+
     Step 1: Update your GPU driver (should be higher than version 390)
     Step 2: Install the CUDA Toolkit version 9.0 (with all the patches)
     Step 3: Install CUDNN 7.0.5
