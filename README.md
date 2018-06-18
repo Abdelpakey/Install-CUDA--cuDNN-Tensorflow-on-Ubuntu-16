@@ -14,7 +14,7 @@ I'll be using a TITAN XP GPU
 Ubuntu comes with python 2.7 already installed but I will be using anaconda
 Overview
 
-open up  additonal driver and use Nvidia 384.130 (propreitary)  and then  reboot
+# open up  additonal driver and use Nvidia 384.130 (propreitary)  and then  reboot
 
 
     Step 1: Update your GPU driver (should be higher than version 390)
