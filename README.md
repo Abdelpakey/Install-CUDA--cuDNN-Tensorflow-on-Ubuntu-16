@@ -36,6 +36,10 @@ The output should show the GPU name and the driver
 
 if loginloop issue:
 
+ctrl+alt+f1 
+sudo apt-get -purge nvidia-*
+and then login your ubuntu and 
+
 #solution# :downgrade the kernel, or select the lower version kernel, or delete the latest version kernel, or set "Unattended-upgrade" as 0, or reinstall the Nvidia driver. 
 https://devtalk.nvidia.com/default/topic/1000340/cuda-setup-and-installation/-quot-nvidia-smi-has-failed-because-it-couldn-t-communicate-with-the-nvidia-driver-quot-ubuntu-16-04/2
 
