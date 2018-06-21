@@ -64,6 +64,10 @@ go to the last line and add the following lines (this will set your PATH variabl
 
     export PATH=/usr/local/cuda-9.0/bin${PATH:+:$PATH}}
     export LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+    
+    
+# How to update Nvidia drivers
+    http://www.linuxandubuntu.com/home/how-to-install-latest-nvidia-drivers-in-linux
 
 # Step 3: Install CUDNN 7.0.5
 
