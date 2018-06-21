@@ -9,6 +9,15 @@ If you got a blank (black/white) spyder window after installation then do:
   source activate (yourenv)
   conda install -c anaconda pyopengl  (https://anaconda.org/anaconda/pyopengl)
   
+If you got spyder startup problem or error 
+   
+       source activate (yourenv)
+       conda list
+   you will see  sqlite
+   then remove it 
+       conda remove sqlite 
+   then openup your anaconda and install spyder again   
+  
 An NVIDIA GPU with a compute capability of 3.0 or higher.
 I'll be using a TITAN XP GPU
 Ubuntu comes with python 2.7 already installed but I will be using anaconda
@@ -109,6 +118,8 @@ go to the last line and add the following lines (this will set your PATH variabl
       
    # Install Numpy Scipy Pillow 
        pip install numpy scipy
+       pip install msgpack
+       pip install matplotlib
        
    # install GCC4.9 and G++4.9 to run VOT Toolkit
    
