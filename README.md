@@ -100,8 +100,12 @@ go to the last line and add the following lines (this will set your PATH variabl
     the output should be
     >>> 'hello tensorflow'
     
-   # install open cv
+   # Install open cv
       pip install opencv-python
+      
+   # Install Numpy Scipy Pillow 
+       pip install numpy scipy
+       
    # install GCC4.9 and G++4.9 to run VOT Toolkit
    
       sudo add-apt-repository ppa:ubuntu-toolchain-r/test
