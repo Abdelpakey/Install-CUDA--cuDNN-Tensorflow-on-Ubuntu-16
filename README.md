@@ -11,12 +11,12 @@ If you got a blank (black/white) spyder window after installation then do:
   
 If you got spyder startup problem or error 
    
-       source activate (yourenv)
-       conda list
+   source activate (yourenv)
+   conda list
    you will see  sqlite
    then remove it 
-       conda remove sqlite 
-   then openup your anaconda and install spyder again   
+   conda remove sqlite 
+   then open-up your anaconda and install spyder again   
   
 An NVIDIA GPU with a compute capability of 3.0 or higher.
 I'll be using a TITAN XP GPU
